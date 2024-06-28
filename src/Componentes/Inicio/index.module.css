@@ -1,0 +1,80 @@
+.perfil {
+    background: linear-gradient(0deg, rgba(184, 187, 9, 1) 0%, rgba(121, 161, 3, 1) 59%, rgba(97, 158, 0, 1) 80%, rgba(12, 116, 0, 1) 100%);
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.titulo {
+    margin-bottom: 20px;
+    background-color: #e1e1e1;
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.dados_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.rh {
+    flex: 0 0 calc(33.33% - 26px);
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+/* Estilos para separar as caixas em cima e embaixo */
+.rh:nth-child(-n+3) {
+    order: -1; /* Coloca as primeiras 3 caixas em cima */
+}
+
+.rh:last-child {
+    margin-right: 0; 
+}
+
+.rh:nth-child(n+4) {
+    order: 1; /* Coloca as próximas 3 caixas embaixo */
+}
+
+.titulo_rh, .lista_nomes {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.titulo_rh h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 10px;
+    color: black;
+}
+
+.lista_nomes li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.lista_nomes li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+    display: block;
+    padding: 10px;
+}
+
+.lista_nomes li a:hover {
+    color: green !important;
+}

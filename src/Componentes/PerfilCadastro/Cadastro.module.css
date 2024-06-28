@@ -1,0 +1,84 @@
+/* PerfilCadastro.module.css */
+
+.perfilCadastro {
+    padding: 20px;
+    background: linear-gradient(0deg, rgba(184, 187, 9, 1) 0%, rgba(121, 161, 3, 1) 59%, rgba(97, 158, 0, 1) 80%, rgba(12, 116, 0, 1) 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Ajuste para alinhar no topo */
+  }
+  
+  .titulo_cadastro {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #e1e1e1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+ 
+  
+  .titulo_cadastro h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  .formularioCadastro {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1500px;
+    margin-top: 20px; /* Espaçamento superior */
+  }
+  
+  .formularioCadastro .campoFormulario {
+    margin-bottom: 10px;
+  }
+  
+  .formularioCadastro label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .formularioCadastro input[type="text"],
+  .formularioCadastro input[type="number"],
+  .formularioCadastro select {
+    width: calc(100% - 16px); /* Ajuste para reduzir o tamanho dos campos */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .formularioCadastro button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .formularioCadastro button:hover {
+    background-color: #0056b3;
+  }
+
+  .logo {
+    position: absolute;
+    top: 2px;
+    left: 20px;
+  }
+  
+  .logo img {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+  }
+  
